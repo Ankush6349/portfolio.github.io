@@ -1,0 +1,660 @@
+
+@media (max-width: 1023px) {
+    #banner {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .content h1 {
+        font-size: 50px;
+    }
+
+    .slider-text-container {
+        padding: 5px 0;
+    }
+
+    .static-text {
+        font-size: 35px;
+    }
+
+    .dynamic-text {
+        line-height: normal;
+        margin-inline-start: 0;
+    }
+
+    .dynamic-text li {
+        font-size: 35px;
+    }
+
+    .btn {
+        font-size: 20px;
+        padding: 8px 15px;
+    }
+
+    .social-icons {
+        margin-top: 10px;
+    }
+
+    .social-icons a {
+        font-size: 40px;
+        margin-right: 10px;
+    }
+
+    .profile-picture {
+        width: 300px;
+        height: 300px;
+        margin: 20px auto;
+    }
+
+    .profile-picture img {
+        object-fit: cover;
+    }
+    #about-section {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .about-info {
+        padding-left: 20px;
+    }
+
+    .about-name {
+        font-size: 40px;
+    }
+
+    .about-info h1 {
+        font-size: 30px;
+    }
+
+    .sub-title {
+        font-size: 22px;
+    }
+
+    .description {
+        font-size: 20px;
+    }
+
+    .contact-info li {
+        font-size: 22px;
+    }
+
+    .btn-resume {
+        font-size: 24px;
+    }
+
+    .about-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .column#grayscale {
+        margin-bottom: 20px;
+    }
+    #skills-section {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .skills-container {
+        padding: 0px 30px;
+        gap: 20px 25px;
+        justify-content: center;
+    }
+
+    .skill-item {
+        font-size: 30px;
+        padding: 10px 15px;
+        border-radius: 35px;
+    }
+
+    .skill-icon {
+        width: 30px;
+        margin-right: 8px;
+    }
+    #education-section {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    #education-section h2 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    
+    #education-section h2{
+        text-align: center;
+    }
+
+    .education-card {
+        flex-direction: column;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    .edu-img {
+        width: 250px;
+        height: 150px;
+        margin-bottom: 10px;
+    }
+
+    .education-details {
+        font-size: 28px;
+        text-align: center;
+        line-height: 1.4;
+    }
+
+    .school-name {
+        font-size: 24px;
+    }
+
+    #projects-section {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .projects-container {
+        flex-direction: column;
+        gap: 30px;
+        padding: 0 20px;
+    }
+
+    .project-card {
+        max-width: 100%;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    .project-card img {
+        height: auto;
+    }
+
+    .project-info {
+        top: 125px;
+        padding: 10px;
+    }
+
+    .project-info h2 a {
+        font-size: 25px;
+    }
+
+    .project-info h3 {
+        font-size: 24px;
+    }
+
+    .contact .container {
+        padding: 20px;
+      }
+      
+      .contact .content {
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .contact .content .image-box {
+          display: none;
+      }
+    
+      .contact .content form {
+        width: 100%;
+        max-width: 100%;
+      }
+    
+      .button-area button {
+        width: 100%;
+        font-size: 24px;
+      }
+
+      #footer .box-container {
+        flex-direction: column; 
+      }
+    
+      #footer .box-container .box {
+        margin: 1rem 0; 
+        flex: 0 1 250px;
+      }
+}
+
+
+@media (max-width: 768px) {
+    #banner {
+        padding: 20px;
+    }
+
+    .content h1 {
+        font-size: 40px;
+    }
+
+    .static-text {
+        font-size: 30px;
+    }
+
+    .dynamic-text li {
+        font-size: 30px;
+    }
+
+    .btn {
+        font-size: 18px;
+        padding: 8px 12px;
+    }
+
+    .social-icons a {
+        font-size: 35px;
+    }
+
+    .profile-picture {
+        width: 250px;
+        height: 250px;
+    }
+    #about-section {
+        padding: 20px;
+    }
+
+    .about-name {
+        font-size: 36px;
+    }
+
+    .about-info h1 {
+        font-size: 28px;
+    }
+
+    .sub-title {
+        font-size: 20px;
+    }
+
+    .description {
+        font-size: 18px;
+    }
+
+    .contact-info li {
+        font-size: 20px;
+    }
+
+    .btn-resume {
+        font-size: 20px;
+        padding: 8px 15px;
+    }
+
+    .about-content {
+        align-items: center;
+        text-align: center;
+    }
+
+    .about-info {
+        padding-left: 0;
+    }
+
+    .profile-pic img {
+        width: 250px;
+        height: auto;
+    }
+    #skills-section {
+        padding: 20px;
+    }
+
+    .skills-container {
+        padding: 0px 20px;
+        gap: 15px 20px;
+    }
+
+    .skill-item {
+        font-size: 24px;
+        padding: 8px 12px;
+        border-radius: 30px;
+    }
+
+    .skill-icon {
+        width: 25px;
+        margin-right: 5px;
+    }
+    #education-section {
+        padding: 15px;
+    }
+
+    #education-section h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .education-card {
+        padding: 10px;
+    }
+
+    .edu-img {
+        width: 200px;
+        height: 120px;
+    }
+
+    .education-details {
+        font-size: 24px;
+        line-height: 1.4;
+    }
+
+    .school-name {
+        font-size: 20px;
+    }
+    #projects-section {
+        padding: 20px;
+    }
+
+    .projects-container {
+        flex-direction: column;
+        gap: 20px;
+        padding: 0;
+    }
+
+    .project-card {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .project-card img {
+        height: 200px;
+    }
+
+    .project-info {
+        top: 65px;
+        padding: 8px;
+    }
+
+    .project-info h2 a {
+        font-size: 22px;
+    }
+
+    .project-info h3 {
+        font-size: 20px;
+    }
+
+    .contact {
+        padding: 20px 10px;
+      }
+    
+      .contact .container {
+        padding: 20px 10px;
+      }
+    
+   
+    
+      form .message textarea {
+        min-height: 80px;
+      }
+    
+      .button-area {
+        text-align: center;
+      }
+    
+      .button-area button {
+        width: 100%;
+        font-size: 20px;
+      }
+      #footer {
+        padding: 20px 10px; 
+      }
+    
+      #footer .box-container {
+        padding: 0 10px; 
+      }
+    
+      #footer .box-container .box h3 {
+        font-size: 24px; 
+      }
+    
+      #footer .box-container .box p {
+        font-size: 16px; /
+      }
+    
+      #footer .credit {
+        font-size: 20px; 
+      }
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .experience .timeline::after {
+    left: 31px;
+    }
+    .experience .container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+    }
+    .experience .container::before {
+    left: 60px;
+    border: medium solid #f68c09;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #f68c09 transparent transparent;
+    }
+    .experience .left::after {
+      left: 15px;
+    }
+    .experience .right::after {
+      left: 15px;
+    }
+    .experience .right {
+    left: 0%;
+    }
+    .experience .container::after {
+        font-size: 24px;
+    }
+  }
+
+
+
+
+@media (max-width: 480px) {
+    #banner {
+        padding: 10px;
+    }
+
+    .content h1 {
+        font-size: 32px;
+    }
+
+    .static-text {
+        font-size: 25px;
+    }
+
+    .dynamic-text li {
+        font-size: 25px;
+    }
+
+    .btn {
+        font-size: 16px;
+        padding: 6px 10px;
+    }
+
+    .social-icons a {
+        font-size: 30px;
+    }
+
+    .profile-picture {
+        width: 200px;
+        height: 200px;
+    }
+    #about-section {
+        padding: 10px;
+    }
+
+    .about-name {
+        font-size: 32px;
+    }
+
+    .about-info h1 {
+        font-size: 24px;
+    }
+
+    .sub-title {
+        font-size: 18px;
+    }
+
+    .description {
+        font-size: 16px;
+    }
+
+    .contact-info li {
+        font-size: 18px;
+    }
+
+    .btn-resume {
+        font-size: 18px;
+        padding: 6px 10px;
+    }
+
+    .profile-pic img {
+        width: 200px;
+        height: auto;
+    }
+    #skills-section {
+        padding: 10px;
+    }
+
+    .skills-container {
+        flex-direction: column;
+        padding: 0px 10px;
+        gap: 10px;
+    }
+
+    .skill-item {
+        font-size: 20px;
+        padding: 10px 50px;
+        border-radius: 25px;
+    }
+
+    .skill-icon {
+        width: 20px;
+        margin-right: 5px;
+    }
+    #education-section {
+        padding: 10px;
+    }
+
+    #education-section h2 {
+        font-size: 24px;
+    }
+
+    .education-card {
+        padding: 8px;
+    }
+
+    .edu-img {
+        width: 150px;
+        height: 100px;
+    }
+
+    .education-details {
+        font-size: 25px;
+    }
+
+    .school-name {
+        font-size: 18px;
+    }
+
+    #projects-section {
+        padding: 15px;
+    }
+
+    .projects-container {
+        flex-direction: column;
+        gap: 15px;
+        padding: 0;
+    }
+
+    .project-card {
+        max-width: 100%;
+    }
+
+    .project-card img {
+        height: 150px;
+    }
+
+    .project-info {
+        top: 45px;
+        padding: 5px;
+    }
+
+    .project-info h2 a {
+        font-size: 20px;
+    }
+
+    .project-info h3 {
+        font-size: 18px;
+    }
+    #footer .box-container .box {
+        flex: 1 1 100%; 
+      }
+    
+      #footer .box-container .box .share a {
+        height: 30px; 
+        width: 30px;
+        font-size: 20px; 
+      }
+}
+
+
+
+@media screen and (max-width: 970px) {
+    .wrapper .btn{
+      display: block;
+    }
+    .logo a img{
+        width: 80%;
+    }
+    nav .wrapper{
+        padding: 0 15px;
+    }
+    .wrapper .nav-links{
+      position: fixed;
+      width: 100%;
+      max-width: 350px;
+      top: 0;
+      left: -100%;
+      background: white;
+      display: block;
+      padding: 50px 10px;
+      line-height: 50px;
+      overflow-y: auto;
+      transition: all 0.3s ease;
+      border: 3px solid #f68c09;
+    }
+    #menu-btn:checked ~ .nav-links{
+      left: 0%;
+    }
+    #menu-btn:checked ~ .btn.menu-btn{
+      display: none;
+    }
+    #close-btn:checked ~ .btn.menu-btn{
+      display: block;
+    }
+    .nav-links li{
+      margin: 15px 10px;
+    }
+    .nav-links li a{
+      padding: 0 20px;
+      display: block;
+      font-size: 20px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
